@@ -1,0 +1,101 @@
+*{
+  padding:1;
+  margin:0 auto;
+  text-decoration:none;
+}
+.top {
+  color :black;
+}
+header ul {
+  float:middle;
+}
+header ul li{
+  display: inline-block;
+  font-family: "Monaco", lucida console, monospace;
+}
+header ul li a {
+  padding:15px 30px;
+  display: inline-block;
+}
+header ul li a:hover {
+ background-color: #f9e5e1;
+ color:#ffff;
+}
+.active {
+ background-color: #f9e5e1;
+ color:#ffff;
+}
+.background {
+  height:75vh;
+  background-image:url('foto/background.jpeg');
+  background-size:cover;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background-attachment: fixed;
+}
+.background h1{
+  margin :30px;
+  border:3px dashed white;
+  font-size:60px;
+  padding:30px 50px;
+  font-family:cursive;
+}
+h1{
+color: #ffff;
+}
+section {
+  padding : 75px 0;
+}
+.about {
+ background: rgba( 235, 235, 235, 0.606);
+}
+section h2{
+  text-align: center;
+  padding: 20px 0;
+  color:black;
+  font-family:cursive;
+  border : 2px dashed pink;
+  background: rgba( 252, 237, 235, 0.404);
+}
+.about p{
+  word-spacing:2px;
+  line-height:25px;
+  text-align: center;
+  margin :20px 50px;
+  font-family: cursive;
+}
+.place {
+  background:rgba( 235, 235, 235, 0.606);
+  height:100px;
+}
+.containerplace {
+  float:left;
+  text-align:center;
+  padding: 20px 160px;
+  color:black;
+  font-family:cursive;
+  display: inline-block;
+  
+}
+.containerplace h3{
+  padding: 10px 0px;
+  border : 2px dashed pink;
+  background: rgba( 252, 237, 235, 0.404);
+}
+.box {
+  text-align:center;
+  padding: 25px 50px;
+  color:black;
+  font-family:cursive;
+}
+.footer{
+  text-align:center;
+}
+.footer h1 {
+  text-align:center;
+  padding:20px;
+  margin:2px;
+  color:black;
+  font-family:cursive;
+}
